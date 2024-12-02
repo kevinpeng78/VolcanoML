@@ -1,0 +1,22 @@
+{
+    "general": {
+        "run_name": "test",
+        "device": "cuda",
+        "seed": 1456
+    },
+    "data": {
+        "data_path": "/home/kkp/volcano/deep_learning/train_dataset.pt",
+        "test_path": "/home/kkp/volcano/deep_learning/test_dataset.pt",
+        "train_ratio": 0.8
+    },
+    "model": {
+        "name": "Debug"
+    },
+    "training": {
+        "checkpoint_path": "/home/kkp/volcano/deep_learning/checkpoints",
+        "num_epochs": 10,
+        "batch_size": 1,
+        "learning_rate": 0.001,
+        "num_workers": 4
+    }
+}
